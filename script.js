@@ -29,7 +29,7 @@ Array.from(selectedBtns).forEach(selectBtn =>{
   })
 
 
- buyButton.addEventListener('click', function(event){
+ buyButton.addEventListener('submit', function(event){
   event.preventDefault();
 
 
