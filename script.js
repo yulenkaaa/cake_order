@@ -5,7 +5,7 @@ const address = document.querySelector('#address');
 const date = document.querySelector('#date');
 const phone = document.querySelector('#phone_number');
 const form = document.querySelector('.order_form');
-const buyButton = document.getElementById('buy');
+
 
 function formReset(){
  const inputs = document.querySelectorAll('form input');
@@ -29,7 +29,7 @@ Array.from(selectedBtns).forEach(selectBtn =>{
   })
 
 
- buyButton.addEventListener('submit', function(event){
+ form.addEventListener('submit', function(event){
   event.preventDefault();
 
 
