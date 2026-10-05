@@ -41,6 +41,11 @@ Array.from(selectedBtns).forEach(selectBtn =>{
 
   form.insertAdjacentElement('afterend', message);
 
+  message.scrollIntoView({
+    behavior: "smooth",
+    block: "center"
+  })
+
   formReset();
 
 
